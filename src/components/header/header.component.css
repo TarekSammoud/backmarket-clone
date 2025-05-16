@@ -1,0 +1,17 @@
+ .search-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .search-container input {
+    padding-right: 2.5rem; /* Space for the icon */
+  }
+
+  .search-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d; /* Bootstrap's muted color */
+    pointer-events: none;
+  }

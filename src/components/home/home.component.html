@@ -1,0 +1,242 @@
+<!-- product-list.component.html -->
+<main class="container my-5">
+  <!-- Header Buttons -->
+  <div class="badges d-flex justify-content-center mb-4 header-buttons flex-wrap gap-2">
+    <button class="btn btn-outline-secondary"><span class="me-2">✔</span>Reconditionné par des pros</button>
+    <button class="btn btn-outline-secondary"><span class="me-2">🔄</span>Reprise au meilleur prix</button>
+    <button class="btn btn-outline-secondary"><span class="me-2">💳</span>Paiement en plusieurs fois</button>
+    <button class="btn btn-outline-secondary"><span class="me-2">📱</span>Fonctions bonus dans l'App</button>
+  </div>
+
+  <!-- Section: Recommandés pour vous -->
+  <section class="mb-5">
+    <h2 class="mb-4">Recommandés pour vous</h2>
+    <!-- Desktop Grid View -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 desktop-grid">
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 position-relative">
+          <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+          <img src="assets/img/iphone1.webp" class="card-img-top" alt="iPhone 13">
+          <div class="card-body">
+            <h5 class="card-title mb-1">iPhone 13</h5>
+            <p class="text-muted small mb-2">Minuit • 128 Go • SIM physique + eSIM</p>
+            <div class="mb-2">
+              <span class="text-warning">★★★★☆</span>
+              <span class="text-muted small">(44 572)</span>
+            </div>
+            <div class="mb-3">
+              <span class="fw-bold fs-5 text-danger">321,00 €</span>
+              <span class="text-muted text-decoration-line-through small ms-2">749,00 € neuf</span>
+            </div>
+            <a href="#" class="btn w-100">Voir le produit</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 position-relative">
+          <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+          <img src="assets/img/mac.jpg" class="card-img-top" alt="MacBook Air M1">
+          <div class="card-body">
+            <h5 class="card-title mb-1">MacBook Air (13", 2020, M1)</h5>
+            <p class="text-muted small mb-2">Apple M1 avec CPU 8 cœurs • GPU 7 cœurs • 256 Go • RAM 8 Go • Gris...</p>
+            <div class="mb-2">
+              <span class="text-warning">★★★★☆</span>
+              <span class="text-muted small">(125)</span>
+            </div>
+            <div class="mb-3">
+              <span class="fw-bold fs-5 text-danger">544,00 €</span>
+              <span class="text-muted text-decoration-line-through small ms-2">1299,00 € neuf</span>
+            </div>
+            <a href="#" class="btn w-100">Voir le produit</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 position-relative">
+          <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+          <img src="assets/img/samsung.jpg" class="card-img-top" alt="Pack iPhone 12 + Coque">
+          <div class="card-body">
+            <h5 class="card-title mb-1">Pack iPhone 12 + Coque (Noir)</h5>
+            <p class="text-muted small mb-2">128GB • Bleu • Débloqué</p>
+            <div class="mb-2">
+              <span class="text-warning">★★★★☆</span>
+              <span class="text-muted small">(819 736)</span>
+            </div>
+            <div class="mb-3">
+              <span class="fw-bold fs-5 text-danger">255,00 €</span>
+              <span class="text-muted text-decoration-line-through small ms-2">819,00 € neuf</span>
+            </div>
+            <a href="#" class="btn w-100">Voir le produit</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 position-relative">
+          <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+          <img src="assets/img/ps5.jpg" class="card-img-top" alt="PlayStation 5">
+          <div class="card-body">
+            <h5 class="card-title mb-1">PlayStation 5</h5>
+            <p class="text-muted small mb-2">1000 Go • Blanc</p>
+            <div class="mb-2">
+              <span class="text-warning">★★★★★</span>
+              <span class="text-muted small">(132)</span>
+            </div>
+            <div class="mb-3">
+              <span class="fw-bold fs-5 text-danger">450,00 €</span>
+              <span class="text-muted text-decoration-line-through small ms-2">693,32 € neuf</span>
+            </div>
+            <a href="#" class="btn w-100">Voir le produit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Carousel View -->
+    <div id="recommendedCarousel" class="carousel slide mobile-carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card h-100 shadow-sm border-0 position-relative">
+            <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+            <img src="assets/img/iphone1.webp" class="card-img-top" alt="iPhone 13">
+            <div class="card-body">
+              <h5 class="card-title mb-1">iPhone 13</h5>
+              <p class="text-muted small mb-2">Minuit • 128 Go • SIM physique + eSIM</p>
+              <div class="mb-2">
+                <span class="text-warning">★★★★☆</span>
+                <span class="text-muted small">(44 572)</span>
+              </div>
+              <div class="mb-3">
+                <span class="fw-bold fs-5 text-danger">321,00 €</span>
+                <span class="text-muted text-decoration-line-through small ms-2">749,00 € neuf</span>
+              </div>
+              <a href="#" class="btn w-100">Voir le produit</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 shadow-sm border-0 position-relative">
+            <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+            <img src="assets/img/mac.jpg" class="card-img-top" alt="MacBook Air M1">
+            <div class="card-body">
+              <h5 class="card-title mb-1">MacBook Air (13", 2020, M1)</h5>
+              <p class="text-muted small mb-2">Apple M1 avec CPU 8 cœurs • GPU 7 cœurs • 256 Go • RAM 8 Go • Gris...</p>
+              <div class="mb-2">
+                <span class="text-warning">★★★★☆</span>
+                <span class="text-muted small">(125)</span>
+              </div>
+              <div class="mb-3">
+                <span class="fw-bold fs-5 text-danger">544,00 €</span>
+                <span class="text-muted text-decoration-line-through small ms-2">1299,00 € neuf</span>
+              </div>
+              <a href="#" class="btn w-100">Voir le produit</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 shadow-sm border-0 position-relative">
+            <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+            <img src="assets/img/samsung.jpg" class="card-img-top" alt="Pack iPhone 12 + Coque">
+            <div class="card-body">
+              <h5 class="card-title mb-1">Pack iPhone 12 + Coque (Noir)</h5>
+              <p class="text-muted small mb-2">128GB • Bleu • Débloqué</p>
+              <div class="mb-2">
+                <span class="text-warning">★★★★☆</span>
+                <span class="text-muted small">(819 736)</span>
+              </div>
+              <div class="mb-3">
+                <span class="fw-bold fs-5 text-danger">255,00 €</span>
+                <span class="text-muted text-decoration-line-through small ms-2">819,00 € neuf</span>
+              </div>
+              <a href="#" class="btn w-100">Voir le produit</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card h-100 shadow-sm border-0 position-relative">
+            <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+            <img src="assets/img/ps5.jpg" class="card-img-top" alt="PlayStation 5">
+            <div class="card-body">
+              <h5 class="card-title mb-1">PlayStation 5</h5>
+              <p class="text-muted small mb-2">1000 Go • Blanc</p>
+              <div class="mb-2">
+                <span class="text-warning">★★★★★</span>
+                <span class="text-muted small">(132)</span>
+              </div>
+              <div class="mb-3">
+                <span class="fw-bold fs-5 text-danger">450,00 €</span>
+                <span class="text-muted text-decoration-line-through small ms-2">693,32 € neuf</span>
+              </div>
+              <a href="#" class="btn w-100">Voir le produit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#recommendedCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#recommendedCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Section: Nos meilleures ventes -->
+  <section class="mb-5">
+    <h2 class="mb-4">Nos meilleures ventes</h2>
+    <!-- Desktop Grid View -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 desktop-grid">
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0 position-relative">
+          <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+          <img src="assets/img/iphone1.webp" class="card-img-top" alt="iPhone 13">
+          <div class="card-body">
+            <h5 class="card-title mb-1">iPhone 13</h5>
+            <p class="text-muted small mb-2">Minuit • 128 Go • SIM physique + eSIM</p>
+            <div class="mb-2">
+              <span class="text-warning">★★★★☆</span>
+              <span class="text-muted small">(44 572)</span>
+            </div>
+            <div class="mb-3">
+              <span class="fw-bold fs-5 text-danger">321,00 €</span>
+              <span class="text-muted text-decoration-line-through small ms-2">749,00 € neuf</span>
+            </div>
+            <a href="#" class="btn w-100">Voir le produit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Carousel View -->
+    <div id="bestSellersCarousel" class="carousel slide mobile-carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card h-100 shadow-sm border-0 position-relative">
+            <span class="badge bg-light text-dark badge-top-left">Top ventes</span>
+            <img src="assets/img/iphone1.webp" class="card-img-top" alt="iPhone 13">
+            <div class="card-body">
+              <h5 class="card-title mb-1">iPhone 13</h5>
+              <p class="text-muted small mb-2">Minuit • 128 Go • SIM physique + eSIM</p>
+              <div class="mb-2">
+                <span class="text-warning">★★★★☆</span>
+                <span class="text-muted small">(44 572)</span>
+              </div>
+              <div class="mb-3">
+                <span class="fw-bold fs-5 text-danger">321,00 €</span>
+                <span class="text-muted text-decoration-line-through small ms-2">749,00 € neuf</span>
+              </div>
+              <a href="#" class="btn w-100">Voir le produit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#bestSellersCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#bestSellersCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>Yes
+      </button>
+    </div>
+  </section>
+</main>
